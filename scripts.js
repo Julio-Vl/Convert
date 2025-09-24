@@ -40,7 +40,7 @@ function convertCurrrency(amount, price, symbol) {
     //Exibindo a cotação da moeda selecionada.
     description.textContent = `${symbol} 1 = ${formatCurrencyBRL(price)}`
     // Calcula o total.
-    let total = amount * price + // caso tivesse "a"
+    let total = amount * price  // caso tivesse + "letras"
 
     //Verifica se o resultado não é um número
     if(isNaN(total)){
